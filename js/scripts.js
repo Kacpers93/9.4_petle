@@ -2,9 +2,9 @@
 
 function drawTree(h) {
 
-    for (i = 0; i < h; i++) {
-        star = '';
-        for (j = 0; j < i + 1; j++) {
+    for (var i = 0; i < h; i++) {
+        var star = '';
+        for (var j = 0; j <= i; j++) {
             star += '*';
         }
         console.log(star);
@@ -21,8 +21,8 @@ drawTree(5);
 //MOJA SKROCONA WERSJA
 
 //function drawTree(n) {
-//    star = '';
-//    for (i = 0; i < n; i++) {
+//    var star = '';
+//    for (var i = 0; i < n; i++) {
 //        star += '*';
 //        console.log(star);
 //    }
@@ -53,12 +53,12 @@ drawTree(5);
 
 //function drawTree(h) {
 //
-//    for (i = 0; i < h; i++) {
-//        star = '';
-//        for (s = 0; s < h - i; s++) {
+//    for (var i = 0; i < h; i++) {
+//        var star = '';
+//        for (var s = 0; s < h - i; s++) {
 //            star += ' ';
 //        };
-//        for (j = 0; j < (2 * i + 1); j++) {
+//        for (var j = 0; j < (2 * i + 1); j++) {
 //            star += '*';
 //        };
 //        console.log(star);
